@@ -6,11 +6,14 @@
   home.stateVersion = "26.05";
 
   home.packages = with pkgs; [
-    vscodium
-    discord
-    deezer-enhanced
+    deezer-desktop
+    virtualbox
   ];
 
   programs.firefox.enable = true;
+  programs.thunderbird.enable = true;
+  programs.discord.enable = true;
+  programs.libreoffice.enable = true;
+  programs.vscodium.enable = true;
   programs.home-manager.enable = true;
 }

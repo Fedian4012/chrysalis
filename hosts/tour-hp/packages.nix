@@ -9,5 +9,6 @@
     wget
     tree
     nh
+    fastfetch
   ];
 }
